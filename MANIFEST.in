@@ -1,0 +1,21 @@
+# Include all static files
+include static/*.html
+include static/*.js
+include static/*.css
+
+# Include storage directory structure
+include storage/.gitkeep
+
+# Include documentation
+include README.md
+include LICENSE
+
+# Include requirements
+include requirements.txt
+
+# Include examples
+recursive-include examples *.py
+recursive-include examples *.pdf
+
+# Include tests
+recursive-include tests *.py
